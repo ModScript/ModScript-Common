@@ -3,6 +3,11 @@ scala:
     - 2.11.4
 jdk:
     - oraclejdk7
+branches:
+    only:
+        - master
+        - develop
+        - /^release/.*$/
 notifications:
   irc:
     channels:
